@@ -54,6 +54,8 @@
 		5DA8E9CC1DB156A200FA0A0D /* icon80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DA8E9C41DB156A100FA0A0D /* icon80x80.png */; };
 		5DA8E9CD1DB156A200FA0A0D /* icon87x87.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DA8E9C51DB156A100FA0A0D /* icon87x87.png */; };
 		5DE489041DB9429E008D1BCF /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5DE489031DB9429E008D1BCF /* Settings.bundle */; };
+		843F26301E970F9E000F888F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 843F26321E970F9E000F888F /* Localizable.strings */; };
+		84B415171E92BE2E00ECCF9B /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B415151E92BE2E00ECCF9B /* Localizable.swift */; };
 		D743F7F01DB157A700C59573 /* configureMe.plist in Resources */ = {isa = PBXBuildFile; fileRef = D743F7EF1DB157A700C59573 /* configureMe.plist */; };
 /* End PBXBuildFile section */
 
@@ -120,6 +122,10 @@
 		5DA8E9C41DB156A100FA0A0D /* icon80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon80x80.png; sourceTree = "<group>"; };
 		5DA8E9C51DB156A100FA0A0D /* icon87x87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon87x87.png; sourceTree = "<group>"; };
 		5DE489031DB9429E008D1BCF /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		843F262F1E970F97000F888F /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Main.strings"; sourceTree = "<group>"; };
+		843F26311E970F9E000F888F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		843F26331E970FA3000F888F /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		84B415151E92BE2E00ECCF9B /* Localizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localizable.swift; sourceTree = "<group>"; };
 		D743F7EF1DB157A700C59573 /* configureMe.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = configureMe.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -159,6 +165,7 @@
 		22157E691DA40214008B5E1C /* insurance-mobile */ = {
 			isa = PBXGroup;
 			children = (
+				84B415131E92BE2E00ECCF9B /* Localizable */,
 				D743F7EF1DB157A700C59573 /* configureMe.plist */,
 				5DA8E9801DADC62600FA0A0D /* images */,
 				22157E6A1DA40214008B5E1C /* AppDelegate.swift */,
@@ -234,6 +241,15 @@
 			path = Assets.xcassets/icons;
 			sourceTree = "<group>";
 		};
+		84B415131E92BE2E00ECCF9B /* Localizable */ = {
+			isa = PBXGroup;
+			children = (
+				843F26321E970F9E000F888F /* Localizable.strings */,
+				84B415151E92BE2E00ECCF9B /* Localizable.swift */,
+			);
+			path = Localizable;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -268,7 +284,7 @@
 				TargetAttributes = {
 					22157E661DA40214008B5E1C = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = D67FV253XK;
+						DevelopmentTeam = HY94TZQ7S2;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -280,6 +296,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"pt-BR",
 			);
 			mainGroup = 22157E5E1DA40214008B5E1C;
 			productRefGroup = 22157E681DA40214008B5E1C /* Products */;
@@ -320,6 +337,7 @@
 				22157E781DA40214008B5E1C /* LaunchScreen.storyboard in Resources */,
 				5DA8E9C91DB156A200FA0A0D /* icon512x512.png in Resources */,
 				5DA8E9971DADD75300FA0A0D /* mic@2.png in Resources */,
+				843F26301E970F9E000F888F /* Localizable.strings in Resources */,
 				22157E751DA40214008B5E1C /* Assets.xcassets in Resources */,
 				5DA8E9CC1DB156A200FA0A0D /* icon80x80.png in Resources */,
 				5DA8E98D1DADCBE500FA0A0D /* auto.png in Resources */,
@@ -363,6 +381,7 @@
 			files = (
 				5DA8E9791DAD682700FA0A0D /* UserNavigationViewController.swift in Sources */,
 				5DA8E9A81DAF32BF00FA0A0D /* InsetLabel.swift in Sources */,
+				84B415171E92BE2E00ECCF9B /* Localizable.swift in Sources */,
 				22157E6D1DA40214008B5E1C /* LoginViewController.swift in Sources */,
 				5DA8E9741DAD63AD00FA0A0D /* DataManager.swift in Sources */,
 				22157E731DA40214008B5E1C /* insurance_mobile.xcdatamodeld in Sources */,
@@ -380,6 +399,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				22157E6F1DA40214008B5E1C /* Base */,
+				843F262F1E970F97000F888F /* pt-BR */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -392,6 +412,15 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		843F26321E970F9E000F888F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				843F26311E970F9E000F888F /* en */,
+				843F26331E970FA3000F888F /* pt-BR */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -399,6 +428,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -448,6 +478,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -491,7 +522,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = D67FV253XK;
+				DEVELOPMENT_TEAM = HY94TZQ7S2;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -514,7 +545,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = D67FV253XK;
+				DEVELOPMENT_TEAM = HY94TZQ7S2;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
