@@ -1,54 +1,54 @@
-# Cloud Insurance Co. - iOS client
+# Cloud Insurance Co. - Aplicação iOS
 
 [![Build Status](https://travis-ci.org/IBM-Bluemix/insurance-bot-ios.svg?branch=master)](https://travis-ci.org/IBM-Bluemix/insurance-bot-ios)
 
-This service is part of the larger [Cloud Insurance Co.](https://github.com/IBM-Bluemix/cloudco-insurance) project.
+Esse repositório é parte do projeto maior [Cloud Insurance Co.](https://github.com/IBM-Bluemix/cloudco-insurance).
 
-# Overview
+# Visão geral
 
-A native iOS app to interact with the chat bot integrated in the [Cloud Insurance Co.](https://github.com/IBM-Bluemix/cloudco-insurance) application.
+Um app nativo de iOS para interagir com o chatbot integrado no app [Cloud Insurance Co.](https://github.com/IBM-Bluemix/cloudco-insurance).
 
 <img src="xdocs/login.png" width="200"/>
 <img src="xdocs/home.png" width="200"/>
 <img src="xdocs/chat.png" width="200"/>
 
-## Application Requirements
+## Requisitos da aplicação
 
 * XCode 8.0, iOS 10, Swift 3
-* [Carthage dependency manager](https://github.com/Carthage/Carthage/releases)
+* [Gerenciador de dependências Carthage](https://github.com/Carthage/Carthage/releases)
 
-## Running the application with the iOS simulator
+## Rodando a aplicação no simulador de iOS
 
-1. The iOS app depends on the [Cloud Insurance Bot app](https://github.com/IBM-Bluemix/insurance-bot). Make sure to deploy this app first. The simpler path to deploy this app is to use the [Cloud Insurance toolchain](https://github.com/IBM-Bluemix/insurance-toolchain).
+1. O app depende do [App do Bot de Cloud Insurance](https://github.com/IBM-Bluemix/insurance-bot). Certifique-se de enviá-lo ao Bluemix primeiro. O caminho simples do envio é usar a [Toolchain de cloud insurance](https://github.com/IBM-Bluemix/insurance-toolchain).
 
-1. Ensure Carthage is installed in your environment. You can get the latest release [here](https://github.com/Carthage/Carthage/releases).
+1. Certifique-se que o Carthage esteja instalado em sua IDE. Você pode adquirir a última versão [neste link](https://github.com/Carthage/Carthage/releases).
 
-1. Clone the app to your local environment from your terminal using the following command:
+1. Clone a aplicação para seu ambiente de trabalho pelo terminal de comandos usando o seguinte comando:
 
   ```
   git clone https://github.com/IBM-Bluemix/insurance-bot-ios.git
   ```
 
-  * or Download and extract the source code from [this archive](https://github.com/IBM-Bluemix/insurance-bot-ios/archive/master.zip)
+  * ou baixe e extraia o código fonte [deste arquivo](https://github.com/IBM-Bluemix/insurance-bot-ios/archive/master.zip)
 
-1. Change to the checkout directory
+1. Muda o diretório de checkout
 
   ```
   cd insurance-bot-ios
   ```
 
-1. Get the dependencies
+1. Pega as dependências
 
   ```
   carthage bootstrap --platform iOS --no-use-binaries
   ```
 
-1. Open XCode project `insurance-mobile.xcodeproj`
+1. Abra o projeto XCode `insurance-mobile.xcodeproj`
 
-1. Edit `insurance-mobile/configureMe.plist` and replace the `default_api_host` property with the location where you deployed the `insurance-bot` app.
+1. Edite `insurance-mobile/configureMe.plist` e substitua a propriedade `default_api_host` com o local em que você enviou o app `insurance-bot`.
 
-1. Run the app
+1. Execute o app
 
-## License
+## Licença
 
-See [License.txt](License.txt) for license information.
+Veja o [arquivo de licença](License.txt) para informação sobre a licença.
