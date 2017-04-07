@@ -19,17 +19,17 @@ Um app nativo de iOS para interagir com o chatbot integrado no app [Cloud Insura
 
 ## Rodando a aplicação no simulador de iOS
 
-1. O app depende do [App do Bot de Cloud Insurance](https://github.com/IBM-Bluemix/insurance-bot). Certifique-se de enviá-lo ao Bluemix primeiro. O caminho simples do envio é usar a [Toolchain de cloud insurance](https://github.com/IBM-Bluemix/insurance-toolchain).
+1. O app depende do [App do Bot de Cloud Insurance](https://github.com/carlosbu/insurance-bot). Certifique-se de enviá-lo ao Bluemix primeiro. O caminho simples do envio é usar a [Toolchain de cloud insurance](https://github.com/carlosbu/insurance-toolchain).
 
 1. Certifique-se que o Carthage esteja instalado em sua IDE. Você pode adquirir a última versão [neste link](https://github.com/Carthage/Carthage/releases).
 
 1. Clone a aplicação para seu ambiente de trabalho pelo terminal de comandos usando o seguinte comando:
 
   ```
-  git clone https://github.com/IBM-Bluemix/insurance-bot-ios.git
+  git clone https://github.com/carlosbu/insurance-bot-ios.git
   ```
 
-  * ou baixe e extraia o código fonte [deste arquivo](https://github.com/IBM-Bluemix/insurance-bot-ios/archive/master.zip)
+  * ou baixe e extraia o código fonte [deste arquivo](https://github.com/carlosbu/insurance-bot-ios/archive/master.zip)
 
 1. Muda o diretório de checkout
 
