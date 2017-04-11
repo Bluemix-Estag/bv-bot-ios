@@ -79,9 +79,10 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
     func messageSend(message:String?, context:JSON?) {
         dm.postMessage(message: message, context:context) { (json) in
             if let json = json {
-                
-                if let responseText = json["output"]["text"].string {
-                    self.displayMessage(message: responseText, from: "server")
+                if let texts = json["output"]["text"].array {
+                    for text in texts {
+                        self.displayMessage(message: text.string!, from: "server")
+                    }
                 }
                 
                 self.chatContext = json["context"]

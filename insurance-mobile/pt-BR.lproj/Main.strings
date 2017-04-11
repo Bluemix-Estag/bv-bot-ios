@@ -11,14 +11,14 @@
 /* Class = "UILabel"; text = "Robert LeBlanc"; ObjectID = "7YQ-ks-Nx4"; */
 "7YQ-ks-Nx4.text" = "Robert LeBlanc";
 
-/* Class = "UILabel"; text = "Cloud Insurance Co"; ObjectID = "9QV-rH-ZM0"; */
-"9QV-rH-ZM0.text" = "Cloud Insurance Co";
+/* Class = "UILabel"; text = "BV Chatbot"; ObjectID = "9QV-rH-ZM0"; */
+"9QV-rH-ZM0.text" = "BV Chatbot";
 
 /* Class = "UILabel"; text = "message"; ObjectID = "DDW-1h-OTz"; */
 "DDW-1h-OTz.text" = "mensagem";
 
-/* Class = "UINavigationItem"; title = "Chat with Ana"; ObjectID = "K9X-Q1-wZb"; */
-"K9X-Q1-wZb.title" = "Conversa com a Ana";
+/* Class = "UINavigationItem"; title = "BV Chatbot"; ObjectID = "K9X-Q1-wZb"; */
+"K9X-Q1-wZb.title" = "BV Chatbot";
 
 /* Class = "UITextField"; text = ""; ObjectID = "KCv-Ia-EVo"; */
 "KCv-Ia-EVo.text" = "";
@@ -32,8 +32,8 @@
 /* Class = "UILabel"; text = "TRAVEL"; ObjectID = "RJx-vC-VMo"; */
 "RJx-vC-VMo.text" = "VIAGEM";
 
-/* Class = "UIViewController"; title = "Chat with Ana"; ObjectID = "TEL-K2-R01"; */
-"TEL-K2-R01.title" = "Conversa com a Ana";
+/* Class = "UIViewController"; title = "BV Chatbot"; ObjectID = "TEL-K2-R01"; */
+"TEL-K2-R01.title" = "BV Chatbot";
 
 /* Class = "UIButton"; normalTitle = "Don’t have an account? Sign up."; ObjectID = "Xz6-e4-QpT"; */
 "Xz6-e4-QpT.normalTitle" = "Não tem uma conta? Cadastre-se.";
@@ -44,8 +44,8 @@
 /* Class = "UILabel"; text = "message"; ObjectID = "cCE-f7-0qe"; */
 "cCE-f7-0qe.text" = "mensagem";
 
-/* Class = "UILabel"; text = "HEALTH"; ObjectID = "jBL-Xj-wEs"; */
-"jBL-Xj-wEs.text" = "SAÚDE";
+/* Class = "UILabel"; text = "EMPRÉSTIMO E FINANCIAMENTO"; ObjectID = "jBL-Xj-wEs"; */
+"jBL-Xj-wEs.text" = "EMPRÉSTIMO E FINANCIAMENTO";
 
 /* Class = "UITextField"; placeholder = "Enter a request"; ObjectID = "l3d-3r-Mfk"; */
 "l3d-3r-Mfk.placeholder" = "Digite sua mensagem aqui";
@@ -53,8 +53,8 @@
 /* Class = "UILabel"; text = "USERNAME:"; ObjectID = "mvC-bS-UES"; */
 "mvC-bS-UES.text" = "E-MAIL:";
 
-/* Class = "UINavigationItem"; title = "Cloud Insurance Co"; ObjectID = "p6M-dg-aUM"; */
-"p6M-dg-aUM.title" = "Cloud Insurance Co";
+/* Class = "UINavigationItem"; title = "BV Chatbot"; ObjectID = "p6M-dg-aUM"; */
+"p6M-dg-aUM.title" = "BV Chatbot";
 
 /* Class = "UILabel"; text = "HOME"; ObjectID = "r7v-pj-N9X"; */
 "r7v-pj-N9X.text" = "CASA";

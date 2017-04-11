@@ -73,7 +73,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		22157E671DA40214008B5E1C /* insurance-mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "insurance-mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22157E671DA40214008B5E1C /* bv-bot-mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bv-bot-mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22157E6A1DA40214008B5E1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22157E6C1DA40214008B5E1C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		22157E6F1DA40214008B5E1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -157,7 +157,7 @@
 		22157E681DA40214008B5E1C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				22157E671DA40214008B5E1C /* insurance-mobile.app */,
+				22157E671DA40214008B5E1C /* bv-bot-mobile.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -253,9 +253,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		22157E661DA40214008B5E1C /* insurance-mobile */ = {
+		22157E661DA40214008B5E1C /* bv-bot-mobile */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 22157E7C1DA40214008B5E1C /* Build configuration list for PBXNativeTarget "insurance-mobile" */;
+			buildConfigurationList = 22157E7C1DA40214008B5E1C /* Build configuration list for PBXNativeTarget "bv-bot-mobile" */;
 			buildPhases = (
 				22157E631DA40214008B5E1C /* Sources */,
 				22157E641DA40214008B5E1C /* Frameworks */,
@@ -267,9 +267,9 @@
 			);
 			dependencies = (
 			);
-			name = "insurance-mobile";
+			name = "bv-bot-mobile";
 			productName = "insurance-mobile";
-			productReference = 22157E671DA40214008B5E1C /* insurance-mobile.app */;
+			productReference = 22157E671DA40214008B5E1C /* bv-bot-mobile.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -279,7 +279,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Anton McConville";
 				TargetAttributes = {
 					22157E661DA40214008B5E1C = {
@@ -289,7 +289,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 22157E621DA40214008B5E1C /* Build configuration list for PBXProject "insurance-mobile" */;
+			buildConfigurationList = 22157E621DA40214008B5E1C /* Build configuration list for PBXProject "bv-bot-mobile" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -303,7 +303,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				22157E661DA40214008B5E1C /* insurance-mobile */,
+				22157E661DA40214008B5E1C /* bv-bot-mobile */,
 			);
 		};
 /* End PBXProject section */
@@ -443,6 +443,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -493,6 +494,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -565,7 +567,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		22157E621DA40214008B5E1C /* Build configuration list for PBXProject "insurance-mobile" */ = {
+		22157E621DA40214008B5E1C /* Build configuration list for PBXProject "bv-bot-mobile" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				22157E7A1DA40214008B5E1C /* Debug */,
@@ -574,7 +576,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		22157E7C1DA40214008B5E1C /* Build configuration list for PBXNativeTarget "insurance-mobile" */ = {
+		22157E7C1DA40214008B5E1C /* Build configuration list for PBXNativeTarget "bv-bot-mobile" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				22157E7D1DA40214008B5E1C /* Debug */,

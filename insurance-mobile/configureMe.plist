@@ -7,7 +7,7 @@
 	<key>ana</key>
 	<string>/api/ana</string>
 	<key>default_api_host</key>
-	<string>http://cloudco.mybluemix.net</string>
+	<string>https://bv-bot.mybluemix.net</string>
 	<key>login</key>
 	<string>/login</string>
 </dict>

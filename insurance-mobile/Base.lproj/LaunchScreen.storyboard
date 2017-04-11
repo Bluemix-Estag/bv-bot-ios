@@ -1,8 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -18,25 +21,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="umbella.png" translatesAutoresizingMaskIntoConstraints="NO" id="lkd-50-L0F">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bv-logo-novo" translatesAutoresizingMaskIntoConstraints="NO" id="lkd-50-L0F">
+                                <rect key="frame" x="82" y="228.5" width="231" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="231" id="h8N-TP-24r"/>
                                     <constraint firstAttribute="height" constant="150" id="zXh-Zo-O2X"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cloud Insurance Co" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oOe-t1-TSv">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CHATBOT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oOe-t1-TSv">
+                                <rect key="frame" x="0.0" y="384" width="375" height="29"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.61176470589999998" green="0.054901960780000002" blue="0.19215686269999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.11372549019607843" green="0.17647058823529413" blue="0.27058823529411763" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="lkd-50-L0F" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="G5K-I9-ttQ"/>
+                            <constraint firstItem="lkd-50-L0F" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" constant="10" id="G5K-I9-ttQ"/>
                             <constraint firstItem="oOe-t1-TSv" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="65" id="QBm-Bc-fg7"/>
                             <constraint firstAttribute="trailing" secondItem="oOe-t1-TSv" secondAttribute="trailing" id="a6X-h5-XbM"/>
                             <constraint firstItem="oOe-t1-TSv" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="tSF-hx-bCd"/>
-                            <constraint firstItem="lkd-50-L0F" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-52.5" id="z8A-LD-TYF"/>
+                            <constraint firstItem="lkd-50-L0F" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-30" id="z8A-LD-TYF"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -46,6 +51,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="umbella.png" width="231" height="150"/>
+        <image name="bv-logo-novo" width="228" height="140"/>
     </resources>
 </document>
